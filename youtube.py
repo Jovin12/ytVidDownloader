@@ -41,7 +41,11 @@ if __name__ == "__main__":
     # switch if you want to change the directory
     # save_dir = open_file_dialog()
 
-    save_dir = "D:\yt_vid_download"
+    # directory to hard disk
+    # save_dir = "D:\yt_vid_download"
+
+    # direcotry to the project in laptop
+    # save_dir = r"C:\Users\jovin\Desktop\pythonProj\yt_Vid_downloader\ytVidDownloader"
 
     if not save_dir:
         print("Invalid location ...")
