@@ -12,7 +12,6 @@ If you are unable to run the env in windows powershell, run the command
 
 
 If you get this error 
-Error "(unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape" [duplicate]
-
+    Error "(unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape" [duplicate]
 convert the string of the path to a raw string by adding r"" in front of the string
         
