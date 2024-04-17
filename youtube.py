@@ -30,9 +30,7 @@ def open_file_dialog():
         print(f"Selected folder: {folder}")
     return folder
 
-
-
-if __name__ == "__main__":
+def downloader():
     root = tk.Tk()
     root.withdraw()
 
@@ -45,10 +43,17 @@ if __name__ == "__main__":
     # save_dir = "D:\yt_vid_download"
 
     # direcotry to the project in laptop
+    # adding r to the front of the string causes it to convert to a raw string
     # save_dir = r"C:\Users\jovin\Desktop\pythonProj\yt_Vid_downloader\ytVidDownloader"
+
+    save_dir = r"C:\Users\jovin\Desktop\pythonProj\yt_Vid_downloader\me tesst"
 
     if not save_dir:
         print("Invalid location ...")
     else:
         print("Started downloading video")
         download_video(video_url,save_dir)
+
+
+if __name__ == "__main__":
+    downloader()
